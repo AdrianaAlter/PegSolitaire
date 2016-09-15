@@ -24,12 +24,12 @@ button {
   font-size: 26px;
   font-family: 'Horta';
   background-image: url("./button1.png");
-  color: darkred;
+  color: #FF0909;
 }
 
 .buttons2 > button {
   margin-left: 10px;
-  color: black;
+  color: #131327;
   font-weight: bold;
   width: 145px;
   font-size: 20px;
