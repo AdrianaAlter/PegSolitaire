@@ -1,0 +1,115 @@
+.group:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+button {
+  height: 90px;
+  letter-spacing: 1px;
+  float: left;
+  width: 125px;
+  background-color: white;
+  background-position-x: center;
+  background-size: contain;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+}
+
+.buttons1 > button {
+  margin-left: 25px;
+  width: 125px;
+  font-size: 26px;
+  font-family: 'Horta';
+  background-image: url("./button1.png");
+  color: darkred;
+}
+
+.buttons2 > button {
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+  width: 145px;
+  font-size: 20px;
+  font-family: 'Yatra One', cursive;
+  background-image: url("./button2.png");
+}
+
+.buttons1, .buttons2 {
+  display: block;
+  width: 100%;
+  height: 60px;
+  margin: auto;
+}
+
+#gamespace {
+  display: block;
+  height: 480px;
+  width: 480px;
+  margin: 0 auto;
+  padding: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.board1 {
+  background-image: url("./board1.png");
+}
+.board2 {
+  background-image: url("./board2.png");
+}
+
+#pegs {
+  display: block;
+  height: 480px;
+  width: 480px;
+  padding: 40px 0 0 0;
+  margin: auto;
+}
+
+.narrow {
+  width: 142px;
+}
+
+.wide {
+  width: 330px;
+}
+
+.row {
+  display: block;
+  padding: 5px;
+  height: 40px;
+  margin: 5px auto;
+}
+
+li {
+  display: block;
+  float: left;
+  border-radius: 50%;
+  margin: 4px;
+  height: 38px;
+  width: 38px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.peg1 {
+  background-image: url("./peg1.png");
+}
+
+.peg2 {
+  background-image: url("./peg2.png");
+}
+
+.empty {
+  background-color: #aaa;
+  background-image: none;
+  box-shadow: inset 5px 5px 1px #1a1a1a;
+  opacity: 1 !important;
+  cursor: default;
+}
