@@ -23,7 +23,7 @@ button {
   width: 125px;
   font-size: 26px;
   font-family: 'Horta';
-  background-image: url("./button1.png");
+  background-image: url("./images/button1.png");
   color: #FF0909;
 }
 
@@ -34,7 +34,7 @@ button {
   width: 145px;
   font-size: 20px;
   font-family: 'Yatra One', cursive;
-  background-image: url("./button2.png");
+  background-image: url("./images/button2.png");
 }
 
 .buttons1, .buttons2 {
@@ -56,10 +56,10 @@ button {
 }
 
 .board1 {
-  background-image: url("./board1.png");
+  background-image: url("./images/board1.png");
 }
 .board2 {
-  background-image: url("./board2.png");
+  background-image: url("./images/board2.png");
 }
 
 #pegs {
@@ -99,11 +99,11 @@ li {
 }
 
 .peg1 {
-  background-image: url("./peg1.png");
+  background-image: url("./images/peg1.png");
 }
 
 .peg2 {
-  background-image: url("./peg2.png");
+  background-image: url("./images/peg2.png");
 }
 
 .empty {
